@@ -1,0 +1,26 @@
+.ValidValue {
+    border:solid 1px darkblue
+}
+.ValidValue:focus { 
+    outline: none !important;
+    border-color: darkblue;
+    box-shadow: 0 0 10px blue;
+}
+
+.InvalidValue {
+    border:solid 1px red
+}
+.InvalidValue:focus { 
+    outline: none !important;
+    border-color: darkred;
+    box-shadow: 0 0 10px red;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: darkgray;
+    box-shadow: 0 0 10px gray;
+}
+input {
+    border:solid 1px darkgray
+}
